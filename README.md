@@ -8,7 +8,7 @@ engaging for your users. Sometimes, though, we want _just a little more
 pizzazz_ and we need to add glamorous **video content**.
 
 In the past, adding video to HTML was only possible using the `iframe` tag. This
-method is still implemented, and sites like [Youtube](youtube.com) still provide
+method is still implemented, and sites like [Youtube](https://www.youtube.com/) still provide
 iframe code as a default option. However, with HTML5, a _new_ tag was
 introduced: `video`. The `video` tag provides a more _semantic_ method for
 including video. It also allows for some customization of videos that iframe
@@ -74,7 +74,7 @@ this:
 If a user was still hanging on to Internet Explorer 8 (they are out there),
 they won't see the video content. Instead, they will see the message "Your
 browser does not support HTML5 video", followed by a link to
-[browsehappy.com](browsehappy.com), where they can download an up-to-date
+[browsehappy.com](https://browsehappy.com/), where they can download an up-to-date
 browser.
 
 #### Video Tag Attributes
@@ -114,6 +114,8 @@ To complete this lab:
 2. Set the width of `video` to '600px', and the height to '400px'
 2. Create a `source` tag for the MP4 video URL above that has appropriate `src` and `type` attributes
 3. Create a fall back `source` tag for the OGG video URL above that has appropriate `src` and `type` attributes
+
+>> **Side Note:** If you want to see the `autoplay` attribute in action, you may need to set the `muted` attribute as well. According to [the official documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#attr-autoplay), some browsers won't allow videos to autoplay unless they're muted by default.
 
 Run `learn` and follow the test messages as you go. You can also run
 `httpserver` or open `index.html` in a browser tab to see your work as you build
